@@ -5,9 +5,9 @@ export default {
 </script>
 
 <template>
-  <nav class="navbar navbar-expand-sm navbar-light bg-light">
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark shadow">
     <div class="container">
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand" href="#">BoolBar</a>
       <button
         class="navbar-toggler d-lg-none"
         type="button"
@@ -22,39 +22,25 @@ export default {
       <div class="collapse navbar-collapse" id="collapsibleNavId">
         <ul class="navbar-nav me-auto mt-2 mt-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" href="#" aria-current="page"
-              >Home <span class="visually-hidden">(current)</span></a
+            <router-link
+              class="nav-link"
+              active-class="active"
+              to="/"
+              aria-current="page"
+              >Home <span class="visually-hidden">(current)</span></router-link
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="dropdownId"
-              data-bs-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-              >Dropdown</a
+            <router-link class="nav-link" active-class="active" to="/about"
+              >About us</router-link
             >
-            <div class="dropdown-menu" aria-labelledby="dropdownId">
-              <a class="dropdown-item" href="#">Action 1</a>
-              <a class="dropdown-item" href="#">Action 2</a>
-            </div>
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-link" active-class="active" to="/contact"
+              >Contact us</router-link
+            >
           </li>
         </ul>
-        <form class="d-flex my-2 my-lg-0">
-          <input
-            class="form-control me-sm-2"
-            type="text"
-            placeholder="Search"
-          />
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-            Search
-          </button>
-        </form>
       </div>
     </div>
   </nav>
