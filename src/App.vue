@@ -19,7 +19,7 @@ export default {
 </script>
 
 <template>
-  {{ message }}
+  <RouterView></RouterView>
 </template>
 
 <script lang="scss"></script>
