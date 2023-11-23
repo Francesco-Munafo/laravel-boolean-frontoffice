@@ -2,60 +2,61 @@
     <h1 class=" text-center">
         Contacts
     </h1>
-    <div class="container d-flex flex-wrap align-items-center justify-content-center">
-        <div class="row card">
-            <div class=" card-header">
-                <h2>Francesco Munafò</h2>
-            </div>
-            <div class=" card-body">
-                <img src="https://avatars.githubusercontent.com/u/137309407?v=4" alt="" class="">
-            </div>
-            <div class=" card-footer">
-                <a href="https://github.com/Francesco-Munafo">GitHub</a>
-            </div>
+    <div class="container d-flex justify-content-center align-items-center mt-5">
+        <div class="col-6">
+            <form>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
         </div>
-        <div class="row card">
-            <div class=" card-header">
-                <h2>Lorenzo Neri</h2>
+
+        <div class="col-6 d-flex flex-column align-items-center justify-content-center">
+            <div class="d-flex justify-content-center align-items-center gap-5">
+                <div class="">
+                    <h1>ciaooo</h1>
+                </div>
+                <div class="">body</div>
+                <div class="">footer</div>
             </div>
-            <div class=" card-body">
-                <img src="https://avatars.githubusercontent.com/u/135619487?v=4" alt="">
+            <div class="d-flex justify-content-center align-items-center gap-5">
+                <div class="">
+                    <h1>ciaooo</h1>
+                </div>
+                <div class="">body</div>
+                <div class="">footer</div>
             </div>
-            <div class=" card-footer">
-                <a href="https://github.com/lorenzo-neri">GitHub</a>
+            <div class="d-flex justify-content-center align-items-center gap-5">
+                <div class="">
+                    <h1>ciaooo</h1>
+                </div>
+                <div class="">body</div>
+                <div class="">footer</div>
             </div>
-        </div>
-        <div class="row card">
-            <div class=" card-header">
-                <h2>Giacono Branchi</h2>
+            <div class="d-flex justify-content-center align-items-center gap-5">
+                <div class="">
+                    <h1>ciaooo</h1>
+                </div>
+                <div class="">body</div>
+                <div class="">footer</div>
             </div>
-            <div class=" card-body">
-                <img src="https://github.com/giacomobranchi" alt="">
-            </div>
-            <div class=" card-footer">
-                <a href="">GitHub</a>
-            </div>
-        </div>
-        <div class="row card">
-            <div class=" card-header">
-                <h2>Matteo Nocera</h2>
-            </div>
-            <div class=" card-body">
-                <img src="https://avatars.githubusercontent.com/u/134152768?v=4" alt="">
-            </div>
-            <div class=" card-footer">
-                <a href="https://github.com/MatteoNocera">GitHub</a>
-            </div>
-        </div>
-        <div class="row card">
-            <div class=" card-header">
-                <h2>Matteo Napoli</h2>
-            </div>
-            <div class=" card-body">
-                <img src="" alt="">
-            </div>
-            <div class=" card-footer">
-                <a href="https://github.com/matteoNapoli42">GitHub</a>
+            <div class="d-flex justify-content-center align-items-center gap-5">
+                <div class="">
+                    <h1>ciaooo</h1>
+                </div>
+                <div class="">body</div>
+                <div class="">footer</div>
             </div>
         </div>
     </div>
