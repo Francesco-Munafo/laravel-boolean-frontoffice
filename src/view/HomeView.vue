@@ -5,30 +5,30 @@ export default {
 </script>
 
 <template>
-    <div class="row align-items-md-stretch">
-        <div class="col-md-6">
-            <div class="h-100 p-5 text-white bg-primary border rounded-3">
-                <h2>Change the background</h2>
-                <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then,
-                    mix and match with additional component themes and more.</p>
-                <button class="btn btn-outline-primary" type="button">Example button</button>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="h-100 p-5 bg-primary border rounded-3">
-                <h2>Add borders</h2>
-                <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure
-                    to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both
-                    column's content for equal-height.</p>
-                <button class="btn Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then,
-                    mix and match with additional component themes and more." type="button">Example button</button>
-            </div>
+    <div class="p-5 mb-4 bg-light">
+        <div class="container-fluid py-5">
+            <h1 class="display-5 fw-bold">
+                Our Cocktails <svg xmlns="http://www.w3.org/2000/svg" height="1em"
+                    viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                    <path
+                        d="M432 240c53 0 96-43 96-96s-43-96-96-96c-35.5 0-66.6 19.3-83.2 48H296.2C316 40.1 369.3 0 432 0c79.5 0 144 64.5 144 144s-64.5 144-144 144c-27.7 0-53.5-7.8-75.5-21.3l35.4-35.4c12.2 5.6 25.8 8.7 40.1 8.7zM1.8 142.8C5.5 133.8 14.3 128 24 128H392c9.7 0 18.5 5.8 22.2 14.8s1.7 19.3-5.2 26.2l-177 177V464h64c13.3 0 24 10.7 24 24s-10.7 24-24 24H208 120c-13.3 0-24-10.7-24-24s10.7-24 24-24h64V345.9L7 169c-6.9-6.9-8.9-17.2-5.2-26.2z" />
+                </svg>
+            </h1>
+            <p class="col-md-8 fs-4">"Embark on a Journey of Taste and Innovation Discover the Perfect Cocktail for Every
+                Occasion"</p>
+            <router-link to="/about" class="btn btn-primary btn-lg" type="button">About Us</router-link>
         </div>
     </div>
     <div class="container">
-        <div class="row">
-            <div class="col-4">
-                First Column
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 ">
+            <div class="col text-center ">
+                Cocktail-card
+            </div>
+            <div class="col text-center">
+                Cocktail-card
+            </div>
+            <div class="col text-center">
+                Cocktail-card
             </div>
         </div>
     </div>
