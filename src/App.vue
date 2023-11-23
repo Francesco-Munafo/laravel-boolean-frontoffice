@@ -25,7 +25,7 @@ export default {
 <template>
   <body>
     <AppHeader></AppHeader>
-    <main class="vh-100">
+    <main class="min-vh-100">
       <router-view></router-view>
     </main>
     <AppFooter></AppFooter>
