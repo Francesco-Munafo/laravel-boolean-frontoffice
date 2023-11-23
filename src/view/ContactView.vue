@@ -2,65 +2,60 @@
     <h1 class=" text-center">
         Contacts
     </h1>
-    <div class="container d-flex flex-wrap">
-        <div class="col-4 card">
+    <div class="container d-flex flex-wrap align-items-center justify-content-center">
+        <div class="row card">
             <div class=" card-header">
                 <h2>Francesco Munafò</h2>
             </div>
             <div class=" card-body">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos voluptas dolore id nostrum optio
-                    est ipsam nisi quas repellat unde repellendus, eius dolorum sapiente atque ut dolor commodi temporibus
-                    quidem.
-                </p>
+                <img src="https://avatars.githubusercontent.com/u/137309407?v=4" alt="" class="">
+            </div>
+            <div class=" card-footer">
+                <a href="https://github.com/Francesco-Munafo">GitHub</a>
             </div>
         </div>
-        <div class="col-4 card">
+        <div class="row card">
             <div class=" card-header">
                 <h2>Lorenzo Neri</h2>
             </div>
             <div class=" card-body">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos voluptas dolore id nostrum optio
-                    est ipsam nisi quas repellat unde repellendus, eius dolorum sapiente atque ut dolor commodi temporibus
-                    quidem.
-                </p>
+                <img src="https://avatars.githubusercontent.com/u/135619487?v=4" alt="">
+            </div>
+            <div class=" card-footer">
+                <a href="https://github.com/lorenzo-neri">GitHub</a>
             </div>
         </div>
-        <div class="col-4 card">
+        <div class="row card">
             <div class=" card-header">
                 <h2>Giacono Branchi</h2>
             </div>
             <div class=" card-body">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos voluptas dolore id nostrum optio
-                    est ipsam nisi quas repellat unde repellendus, eius dolorum sapiente atque ut dolor commodi temporibus
-                    quidem.
-                </p>
+                <img src="https://github.com/giacomobranchi" alt="">
+            </div>
+            <div class=" card-footer">
+                <a href="">GitHub</a>
             </div>
         </div>
-        <div class="col-4 card">
+        <div class="row card">
             <div class=" card-header">
                 <h2>Matteo Nocera</h2>
             </div>
             <div class=" card-body">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos voluptas dolore id nostrum optio
-                    est ipsam nisi quas repellat unde repellendus, eius dolorum sapiente atque ut dolor commodi temporibus
-                    quidem.
-                </p>
+                <img src="https://avatars.githubusercontent.com/u/134152768?v=4" alt="">
+            </div>
+            <div class=" card-footer">
+                <a href="https://github.com/MatteoNocera">GitHub</a>
             </div>
         </div>
-        <div class="col-4 card">
+        <div class="row card">
             <div class=" card-header">
                 <h2>Matteo Napoli</h2>
             </div>
             <div class=" card-body">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos voluptas dolore id nostrum optio
-                    est ipsam nisi quas repellat unde repellendus, eius dolorum sapiente atque ut dolor commodi temporibus
-                    quidem.
-                </p>
+                <img src="" alt="">
+            </div>
+            <div class=" card-footer">
+                <a href="https://github.com/matteoNapoli42">GitHub</a>
             </div>
         </div>
     </div>
