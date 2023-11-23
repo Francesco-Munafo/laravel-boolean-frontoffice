@@ -23,41 +23,92 @@
         </div>
 
         <div class="col-6 d-flex flex-column align-items-center justify-content-center">
-            <div class="d-flex justify-content-center align-items-center gap-5">
+
+            <!--Team Member-->
+            <div
+                class="d-flex justify-content-center align-items-center gap-5 border border-3 rounded-5 border-black w-100 ms-5 py-2">
+                <!--Member Image-->
                 <div class="">
                     <h1>ciaooo</h1>
                 </div>
-                <div class="">body</div>
-                <div class="">footer</div>
+                <!-- Member Name-->
+                <div class="">
+                    <h4>
+                        Francesco Munafò
+                    </h4>
+                </div>
+                <!-- Member Github-->
+                <div class=""><a href="">GitHub</a></div>
             </div>
-            <div class="d-flex justify-content-center align-items-center gap-5">
+
+            <!--Team Member-->
+            <div
+                class="d-flex justify-content-center align-items-center gap-5 border border-3 rounded-5 border-black w-100 ms-5 py-2">
+                <!--Member Image-->
                 <div class="">
                     <h1>ciaooo</h1>
                 </div>
-                <div class="">body</div>
-                <div class="">footer</div>
+                <!-- Member Name-->
+                <div class="">
+                    <h4>
+                        Giacomo Branchi
+                    </h4>
+                </div>
+                <!-- Member Github-->
+                <div class=""><a href="">GitHub</a></div>
             </div>
-            <div class="d-flex justify-content-center align-items-center gap-5">
+
+            <!--Team Member-->
+            <div
+                class="d-flex justify-content-center align-items-center gap-5 border border-3 rounded-5 border-black w-100 ms-5 py-2">
+                <!--Member Image-->
+                <div class="">
+                    <h1>ciaoooo</h1>
+                </div>
+                <!-- Member Name-->
+                <div class="">
+                    <h4>Matteo Nocera</h4>
+                </div>
+                <!-- Member Github-->
+                <div class=""><a href="">GitHub</a></div>
+            </div>
+
+
+            <!--Team Member-->
+            <div
+                class="d-flex justify-content-center align-items-center gap-5 border border-3 rounded-5 border-black w-100 ms-5 py-2">
+                <!--Member Image-->
                 <div class="">
                     <h1>ciaooo</h1>
                 </div>
-                <div class="">body</div>
-                <div class="">footer</div>
+                <!-- Member Name-->
+                <div class="">
+                    <h4>
+                        Lorenzo Neri
+                    </h4>
+                </div>
+                <!-- Member Github-->
+                <div class=""><a href="">GitHub</a></div>
             </div>
-            <div class="d-flex justify-content-center align-items-center gap-5">
+
+            <!--Team Member-->
+            <div
+                class="d-flex justify-content-center align-items-center gap-5 border border-3 rounded-5 border-black w-100 ms-5 py-2">
+                <!--Member Image-->
                 <div class="">
                     <h1>ciaooo</h1>
                 </div>
-                <div class="">body</div>
-                <div class="">footer</div>
-            </div>
-            <div class="d-flex justify-content-center align-items-center gap-5">
+                <!-- Member Name-->
                 <div class="">
-                    <h1>ciaooo</h1>
+                    <h4>
+                        Matteo Napoli
+                    </h4>
                 </div>
-                <div class="">body</div>
-                <div class="">footer</div>
+                <!-- Member Github-->
+                <div class=""><a href="">GitHub</a></div>
             </div>
+
+
         </div>
     </div>
 </template>
