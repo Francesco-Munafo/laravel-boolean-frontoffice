@@ -1,5 +1,5 @@
 <template>
-  <div class="card h-100 text-center">
+  <div class="card h-100 text-center bg_custom text-white shadow">
     <!-- lascio :src="base_url + '/storage/' ... come nello scorso progetto perché in questo momento non so bene dove saranno le immagini ma ipotizzo che avremo nei data un base_url e le img saranno in una cartella '/storage/' -->
     <img class="card-img-top img-fluid" :src="cocktail.image" alt="" />
 
@@ -8,15 +8,15 @@
         {{ cocktail.name }}
       </h2>
       <!-- /NAME -->
-
-      <div class="badge p-2 bg-danger text-dark text-align-center">
-        Category: <strong>{{ cocktail.category }}</strong>
+      <div class="mb-2">Category:</div>
+      <div class="badge p-2 bg-success text-dark text-align-center">
+        <strong>{{ cocktail.category }}</strong>
       </div>
       <!-- /CATEGORY -->
 
       <hr />
 
-      <div class="mb-2">Categories:</div>
+      <div class="mb-2">Tags:</div>
       <div
         v-for="tag in cocktail.tags"
         class="badge p-2 bg-warning text-dark me-2 mb-2"

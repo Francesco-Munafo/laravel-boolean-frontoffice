@@ -1,5 +1,33 @@
 @use "../../../node_modules/bootstrap/scss/bootstrap.scss";
 
+
+/* #region Color palette */
+
+$onyx: #474448ff;
+$raisin-black: #2d232eff;
+$bone: #e0ddcfff;
+$wenge: #534b52ff;
+$isabelline: #f1f0eaff;
+
+/* #endregion Color palette */
+
+.jumbotron{
+  background-color: $wenge;
+  color: $isabelline;
+}
+
+header, footer, .bg_custom{
+  background-color: $raisin-black;
+  nav {
+    a{
+      
+      color: $bone!important;
+    }
+    
+  }
+}
+
+
 body {
-  background-color: lightblue;
+  background-color: $onyx;
 }

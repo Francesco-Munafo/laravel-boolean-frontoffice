@@ -27,7 +27,7 @@ export default {
 </script>
 
 <template>
-  <div class="p-5 mb-4 bg-light">
+  <div class="p-5 mb-4 jumbotron shadow">
     <div class="container-fluid py-5">
       <h1 class="display-5 fw-bold">
         Our Cocktails
@@ -51,7 +51,7 @@ export default {
       >
     </div>
   </div>
-  <div class="container">
+  <div class="container py-5">
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
       <div class="col text-center" v-for="cocktail in cocktails">
         <CocktailCard :cocktail="cocktail"></CocktailCard>
