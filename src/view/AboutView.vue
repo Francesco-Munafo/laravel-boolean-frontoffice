@@ -24,11 +24,175 @@
 
     <div class="container mt-4">
 
+        <!-- our team -->
+        <div class="row row-cols-1 row-cols-md-2 my-4">
+
+            <div class="col-12 col-md-6 p-2 text-center">
+                <h3 class="display-3">Our Team</h3>
+                <img class="img-fluid rounded-pill" src="../assets/img/Foto team.png" alt="">
+                <p class="px-4 pt-4 display-6 text-muted">
+
+                    Il nostro Team è composto da seri professionisti che ti potranno accompagnare nel percorso che ti
+                    condurrà ad una felice e tranquilla sbornia. Fatti trasportare sulle nuvole di ebrezza che solo l'alcol
+                    di qualità servito dai migliori sul mercato ti possono regalare. Per qualsiasi domanda
+
+                </p>
+                <router-link to="/contact" class="text-decoration-none display-6" type="button">contattaci</router-link>
+
+            </div>
+
+            <div class="col-12 col-md-6 d-flex flex-column align-items-center justify-content-center gap-2">
+
+                <!--Team Member-->
+                <div
+                    class="d-flex align-items-center justify-content-around border border-3 rounded-5 border-black ms-5 py-2 member_card  bg_custom text-white ">
+                    <!--Member Image-->
+                    <div class="col-4 text-center">
+                        <img src="https://avatars.githubusercontent.com/u/137309407?v=4" alt=""
+                            class="contact_avatar img-fluid">
+                    </div>
+                    <!-- Member Name-->
+                    <div class="col-4 text-center">
+                        <h4>
+                            Francesco Munafò
+                        </h4>
+                        <p>
+                            Web-dev - Project Coordinator/Bartender
+                        </p>
+                    </div>
+                    <!-- Member Github-->
+                    <div class="col-4 text-center d-flex gap-2 justify-content-center">
+                        <a href="https://github.com/Francesco-Munafo" class=" btn btn-outline-light">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://github.com/Francesco-Munafo" class=" btn btn-outline-primary">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!--Team Member-->
+                <div
+                    class="d-flex align-items-center justify-content-around border border-3 rounded-5 border-black ms-5 py-2 member_card  bg_custom text-white ">
+                    <!--Member Image-->
+                    <div class="col-4 text-center">
+                        <img src="https://avatars.githubusercontent.com/u/135619487?v=4" alt=""
+                            class="contact_avatar img-fluid">
+                    </div>
+                    <!-- Member Name-->
+                    <div class="col-4 text-center">
+                        <h4>
+                            Lorenzo Neri
+                        </h4>
+                        <p>
+                            Web-dev - Collaborator/Mail-Responsable/Sommelier
+                        </p>
+                    </div>
+                    <!-- Member Github-->
+                    <div class="col-4 text-center d-flex gap-2 justify-content-center">
+                        <a href="https://github.com/lorenzo-neri" class=" btn btn-outline-light">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://github.com/lorenzo-neri" class=" btn btn-outline-primary">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!--Team Member-->
+                <div
+                    class="d-flex align-items-center justify-content-around border border-3 rounded-5 border-black ms-5 py-2 member_card  bg_custom text-white ">
+                    <!--Member Image-->
+                    <div class="col-4 text-center">
+                        <img src="https://avatars.githubusercontent.com/u/136013237?v=4" alt=""
+                            class="contact_avatar img-fluid">
+                    </div>
+                    <!-- Member Name-->
+                    <div class="col-4 text-center">
+                        <h4>
+                            Giacomo Branchi
+                        </h4>
+                        <p>
+                            Web-dev - Collaborator/Route-Responsable/StandUpComedian
+                        </p>
+                    </div>
+                    <!-- Member Github-->
+                    <div class="col-4 text-center d-flex gap-2 justify-content-center">
+                        <a href="https://github.com/giacomobranchi" class=" btn btn-outline-light">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://github.com/giacomobranchi" class=" btn btn-outline-primary">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!--Team Member-->
+                <div
+                    class="d-flex align-items-center justify-content-around border border-3 rounded-5 border-black ms-5 py-2 member_card  bg_custom text-white ">
+                    <!--Member Image-->
+                    <div class="col-4 text-center">
+                        <img src="https://avatars.githubusercontent.com/u/134152768?v=4" alt=""
+                            class="contact_avatar img-fluid">
+                    </div>
+                    <!-- Member Name-->
+                    <div class="col-4 text-center">
+                        <h4>
+                            Matteo Nocera
+                        </h4>
+                        <p>
+                            Web-dev - Collaborator/Designer/Drink tester
+                        </p>
+                    </div>
+                    <!-- Member Github-->
+                    <div class="col-4 text-center d-flex gap-2 justify-content-center">
+                        <a href="https://github.com/MatteoNocera" class=" btn btn-outline-light">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://github.com/MatteoNocera" class=" btn btn-outline-primary">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!--Team Member-->
+                <div
+                    class="d-flex align-items-center justify-content-around border border-3 rounded-5 border-black ms-5 py-2 member_card  bg_custom text-white ">
+                    <!--Member Image-->
+                    <div class="col-4 text-center">
+                        <img src="../assets/img/Matteo Napoli.png" alt="" class="contact_avatar img-fluid">
+                    </div>
+                    <!-- Member Name-->
+                    <div class="col-4 text-center">
+                        <h4>
+                            Matteo Napoli
+                        </h4>
+                        <p>
+                            Web-dev - Collaborator/Route-Responsable/Alcoholic
+                        </p>
+                    </div>
+                    <!-- Member Github-->
+                    <div class="col-4 text-center d-flex gap-2 justify-content-center">
+                        <a href="https://github.com/matteoNapoli42" class=" btn btn-outline-light">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://github.com/matteoNapoli42" class=" btn btn-outline-primary">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <!-- our mission -->
         <div class="row row-cols-1 row-cols-lg-2 g-4">
 
 
             <div class="col">
-                <div class="card text-center bg_custom text-white shadow">
+                <div class="card text-center bg_custom text-white shadow h-100">
                     <div class="card-body">
                         <h2>La nostra Mission</h2>
                         <p>
@@ -56,16 +220,15 @@
             <div class="col">
 
 
-                <div class="card text-center bg_custom text-white shadow">
-                    <img class="img-fluid" src="https://picsum.photos/200" alt="">
+                <div class="card text-center bg_custom text-white shadow h-100">
+                    <img class="img-fluid rounded-2 shadow" src="https://picsum.photos/200" alt="">
                 </div>
 
 
             </div>
         </div>
 
-
-
+        <!-- our partners -->
         <h2 class="text-center my-5 text-white-50 display-4">I nostri Partners</h2>
         <div class="row row-cols-1 row-cols-sm-3 row-cols-md-6 g-3 mb-5">
             <div class="col d-flex justify-content-center align-items-center" v-for="spirit in spirits_images">
@@ -112,5 +275,21 @@ export default {
 }
 </script>
 
-<style></style>
+<style lang="scss" scoped>
+.contact_avatar {
+    border-radius: 90%;
+    max-height: 120px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.member_card {
+
+    width: 100%;
+}
+
+/* .member_item {
+    text-align: center;
+}*/
+</style>
 
