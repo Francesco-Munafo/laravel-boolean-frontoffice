@@ -17,28 +17,28 @@
         <!--FORM-->
         <form action="" v-on:submit.prevent="sendForm()">
             <div class="mb-3">
-                <label for="inputName" class="form-label">Name</label>
-                <input type="text" class="form-control" id="inputName" aria-describedby="inputName" v-model="name">
-                <div id="inputName" class="form-text">We'll never share your email with anyone else.</div>
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name" v-model="name">
+                <div id="name" class="form-text">We'll never share your email with anyone else.</div>
             </div>
 
             <div class="mb-3">
-                <label for="InputEmail1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" v-model="email">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" v-model="email">
                 <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
             </div>
 
             <div class="mb-3">
-                <label for="InputPhone" class="form-label">Phone Number</label>
-                <input type="phone" class="form-control" id="InputPhone" v-model="phone">
+                <label for="phone" class="form-label">Phone Number</label>
+                <input type="phone" class="form-control" id="phone" v-model="phone">
             </div>
 
             <div class="mb-3">
-                <label for="messagge" class="form-label">Message</label>
+                <label for="message" class="form-label">Message</label>
                 <input type="message" class="form-control" id="message" v-model="message">
             </div>
 
-            <button type="submit" @click="this.sendForm()" class="btn btn-primary mt-3">Submit</button>
+            <button type="submit" class="btn btn-primary mt-3">Submit</button>
             <span></span>
         </form>
 
