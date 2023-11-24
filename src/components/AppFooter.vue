@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-  <footer class="bg-dark">
+  <footer>
     <div class="container py-5">
       <div class="row">
         <div class="col">

@@ -28,6 +28,7 @@
             </div>
             <button type="submit" @click="this.sendForm()" class="btn btn-primary mt-3">Submit</button>
         </form>
+
     </div>
 </template>
 
