@@ -13,35 +13,61 @@
 
         </div>
     </div>
-    <div class="container d-flex justify-content-center align-items-center mt-5 mx-auto">
-
+    <div class="container">
         <!--FORM-->
-        <div class="col">
-            <form>
-                <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                </div>
-                <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1">
-                </div>
-                <div class="mb-3 form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
-        </div>
+        <form>
+            <div class="mb-3">
+                <label for="inputName" class="form-label">Name</label>
+                <input type="text" class="form-control" id="inputName" aria-describedby="inputName" v-model="name">
+                <div id="inputName" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
 
+            <div class="mb-3">
+                <label for="InputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" v-model="email">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+
+            <div class="mb-3">
+                <label for="InputPhone" class="form-label">Phone Number</label>
+                <input type="phone" class="form-control" id="InputPhone" v-model="phone">
+            </div>
+
+            <div class="mb-3">
+                <label for="messagge" class="form-label">Message</label>
+                <input type="message" class="form-control" id="message" v-model="message">
+            </div>
+            <button type="submit" @click="this.sendForm()" class="btn btn-primary mt-3">Submit</button>
+        </form>
 
     </div>
 </template>
 
 <script>
+import axios from 'axios';
 export default {
-    name: 'Contact'
+    name: 'Contact',
+    data() {
+        return {
+            name: '',
+            email: '',
+            phone: '',
+            message: '',
+        }
+    },
+
+    methods: {
+        sendForm() {
+            const payload = {
+                name: this.name,
+                email: this.email,
+                phone: this.phone,
+                message: this.message
+            };
+            console.log(payload);
+            //axios.post
+        }
+    }
 }
 </script>
 
