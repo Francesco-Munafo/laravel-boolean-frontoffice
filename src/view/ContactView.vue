@@ -15,7 +15,7 @@
     </div>
     <div class="container">
         <!--FORM-->
-        <form>
+        <form action="" v-on:submit.prevent="sendForm()">
             <div class="mb-3">
                 <label for="inputName" class="form-label">Name</label>
                 <input type="text" class="form-control" id="inputName" aria-describedby="inputName" v-model="name">
@@ -37,7 +37,9 @@
                 <label for="messagge" class="form-label">Message</label>
                 <input type="message" class="form-control" id="message" v-model="message">
             </div>
+
             <button type="submit" @click="this.sendForm()" class="btn btn-primary mt-3">Submit</button>
+            <span></span>
         </form>
 
     </div>
@@ -53,6 +55,8 @@ export default {
             email: '',
             phone: '',
             message: '',
+            success: null,
+            errors: [],
         }
     },
 
@@ -64,30 +68,37 @@ export default {
                 phone: this.phone,
                 message: this.message
             };
+
             console.log(payload);
-            //axios.post
+
+            axios.post('http://127.0.0.1:8000/api/contact', payload)
+                .then(resp => {
+
+                    const success = resp.data.success;
+                    if (!success) {
+                        console.log(resp);
+                        console.log(resp.data.errors);
+                        this.errors = resp.data.errors;
+                    }
+
+                    else {
+                        console.log(resp);
+                        console.log(resp.data.message);
+
+                        this.name = '';
+                        this.email = '';
+                        this.phone = '';
+                        this.message = '';
+                        this.success = resp.data.message;
+                    }
+                })
+                .catch(error => {
+                    console.error(error.message);
+                })
+
         }
     }
 }
 </script>
 
-<style lang="scss" scoped>
-a {
-    text-decoration: none;
-    color: black;
-}
-
-.contact_avatar {
-    border-radius: 90%;
-    height: 60px;
-}
-
-.member_card {
-    background-color: rgb(240, 236, 236);
-    width: 100%;
-}
-
-.member_item {
-    text-align: center;
-}
-</style>
+<style lang="scss" scoped></style>
