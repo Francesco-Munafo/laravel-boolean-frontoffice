@@ -1,7 +1,14 @@
 <template>
   <div class="card h-100 text-center bg_custom text-white shadow">
     <!-- lascio :src="base_url + '/storage/' ... come nello scorso progetto perché in questo momento non so bene dove saranno le immagini ma ipotizzo che avremo nei data un base_url e le img saranno in una cartella '/storage/' -->
-    <img class="card-img-top img-fluid" :src="cocktail.image" alt="" />
+    <img
+      class="card-img-top img-fluid"
+      :src="cocktail.image"
+      alt=""
+      @error="
+        cocktail.image = `https://static.specsonline.com/wp-content/themes/cheers/assets/images/default_bar-mixers.png`
+      "
+    />
 
     <div class="card-body">
       <h2>
