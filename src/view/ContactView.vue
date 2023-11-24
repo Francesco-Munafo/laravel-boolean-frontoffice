@@ -15,17 +15,15 @@
     </div>
     <div class="container">
         <!--FORM-->
-        <form action="" v-on:submit.prevent="sendForm()">
+        <form class="form_text" action="" v-on:submit.prevent="sendForm()">
             <div class="mb-3">
                 <label for="name" class="form-label">Name</label>
                 <input type="text" class="form-control" id="name" aria-describedby="name" v-model="name">
-                <div id="name" class="form-text">We'll never share your email with anyone else.</div>
             </div>
 
             <div class="mb-3">
                 <label for="email" class="form-label">Email address</label>
                 <input type="email" class="form-control" id="email" aria-describedby="emailHelp" v-model="email">
-                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
             </div>
 
             <div class="mb-3">
