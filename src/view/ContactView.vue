@@ -40,7 +40,8 @@
                     </h4>
                 </div>
                 <!-- Member Github-->
-                <div class="col-4 member_item"><a href="https://github.com/Francesco-Munafo">GitHub</a></div>
+                <div class="col-4 member_item"><a href="https://github.com/Francesco-Munafo"
+                        class=" btn btn-primary text-white">GitHub</a></div>
             </div>
 
             <div class="d-flex align-items-center  justify-content-between
@@ -57,7 +58,8 @@
                     </h4>
                 </div>
                 <!-- Member Github-->
-                <div class="col-4 member_item"><a href="">GitHub</a></div>
+                <div class="col-4 member_item"><a href="https://github.com/lorenzo-neri"
+                        class=" btn btn-primary text-white">GitHub</a></div>
             </div>
 
             <!--Team Member-->
@@ -75,7 +77,8 @@
                     </h4>
                 </div>
                 <!-- Member Github-->
-                <div class="col-4 member_item"><a href="https://github.com/giacomobranchi">GitHub</a></div>
+                <div class="col-4 member_item"><a href="https://github.com/giacomobranchi"
+                        class=" btn btn-primary text-white">GitHub</a></div>
             </div>
 
 
@@ -94,7 +97,8 @@
                     </h4>
                 </div>
                 <!-- Member Github-->
-                <div class="col-4 member_item"><a href="https://github.com/MatteoNocera">GitHub</a></div>
+                <div class="col-4 member_item"><a href="https://github.com/MatteoNocera"
+                        class=" btn btn-primary text-white">GitHub</a></div>
             </div>
 
             <!--Team Member-->
@@ -112,7 +116,8 @@
                     </h4>
                 </div>
                 <!-- Member Github-->
-                <div class="col-4 member_item"><a href="">GitHub</a></div>
+                <div class="col-4 member_item"><a href="https://github.com/matteoNapoli42"
+                        class=" btn btn-primary text-white">GitHub</a></div>
             </div>
 
 
