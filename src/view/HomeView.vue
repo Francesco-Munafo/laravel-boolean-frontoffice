@@ -23,6 +23,42 @@ export default {
         console.error(err);
       });
   },
+  methods: {
+    fetchAll() {
+      axios
+        .get(this.APIurl)
+        .then((response) => {
+          this.cocktails = response.data.cocktails;
+          console.log(this.cocktails);
+        })
+        .catch((err) => {
+          console.error(err);
+        });
+    },
+
+    fetchAlcoholic() {
+      axios
+        .get(this.APIurl + "/alcoholic")
+        .then((response) => {
+          this.cocktails = response.data.alcoholic;
+          console.log(this.cocktails);
+        })
+        .catch((err) => {
+          console.error(err);
+        });
+    },
+    fetchNonAlcoholic() {
+      axios
+        .get(this.APIurl + "/analcoholic")
+        .then((response) => {
+          this.cocktails = response.data.analcoholic;
+          console.log(this.cocktails);
+        })
+        .catch((err) => {
+          console.error(err);
+        });
+    },
+  },
 };
 </script>
 
@@ -52,6 +88,16 @@ export default {
     </div>
   </div>
   <div class="container py-5">
+    <div class="d-flex justify-content-center gap-3 mb-5">
+      <button class="btn btn-primary" @click="fetchAlcoholic">
+        Alcoholic Drinks
+      </button>
+      <button class="btn btn-primary" @click="fetchNonAlcoholic">
+        Analcoholic Drinks
+      </button>
+      <button class="btn btn-primary" @click="fetchAll">All Drinks</button>
+    </div>
+
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
       <div class="col text-center" v-for="cocktail in cocktails">
         <CocktailCard :cocktail="cocktail"></CocktailCard>
