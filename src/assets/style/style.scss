@@ -11,23 +11,30 @@ $isabelline: #f1f0eaff;
 
 /* #endregion Color palette */
 
-.jumbotron{
+.jumbotron {
   background-color: $wenge;
   color: $isabelline;
 }
 
-header, footer, .bg_custom{
+header,
+footer,
+.bg_custom {
   background-color: $raisin-black;
+
   nav {
-    a{
-      
-      color: $bone!important;
+    a {
+
+      color: $bone !important;
     }
-    
+
   }
 }
 
 
 body {
   background-color: $onyx;
+}
+
+svg {
+  fill: $isabelline;
 }
