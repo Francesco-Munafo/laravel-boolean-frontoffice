@@ -4,33 +4,18 @@
       <h1 class="display-5 fw-bold">
         About Us
 
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          height="1em"
-          viewBox="0 0 640 512"
-        >
+        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512">
           <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
           <path
-            d="M72 88a56 56 0 1 1 112 0A56 56 0 1 1 72 88zM64 245.7C54 256.9 48 271.8 48 288s6 31.1 16 42.3V245.7zm144.4-49.3C178.7 222.7 160 261.2 160 304c0 34.3 12 65.8 32 90.5V416c0 17.7-14.3 32-32 32H96c-17.7 0-32-14.3-32-32V389.2C26.2 371.2 0 332.7 0 288c0-61.9 50.1-112 112-112h32c24 0 46.2 7.5 64.4 20.3zM448 416V394.5c20-24.7 32-56.2 32-90.5c0-42.8-18.7-81.3-48.4-107.7C449.8 183.5 472 176 496 176h32c61.9 0 112 50.1 112 112c0 44.7-26.2 83.2-64 101.2V416c0 17.7-14.3 32-32 32H480c-17.7 0-32-14.3-32-32zm8-328a56 56 0 1 1 112 0A56 56 0 1 1 456 88zM576 245.7v84.7c10-11.3 16-26.1 16-42.3s-6-31.1-16-42.3zM320 32a64 64 0 1 1 0 128 64 64 0 1 1 0-128zM240 304c0 16.2 6 31 16 42.3V261.7c-10 11.3-16 26.1-16 42.3zm144-42.3v84.7c10-11.3 16-26.1 16-42.3s-6-31.1-16-42.3zM448 304c0 44.7-26.2 83.2-64 101.2V448c0 17.7-14.3 32-32 32H288c-17.7 0-32-14.3-32-32V405.2c-37.8-18-64-56.5-64-101.2c0-61.9 50.1-112 112-112h32c61.9 0 112 50.1 112 112z"
-          />
+            d="M72 88a56 56 0 1 1 112 0A56 56 0 1 1 72 88zM64 245.7C54 256.9 48 271.8 48 288s6 31.1 16 42.3V245.7zm144.4-49.3C178.7 222.7 160 261.2 160 304c0 34.3 12 65.8 32 90.5V416c0 17.7-14.3 32-32 32H96c-17.7 0-32-14.3-32-32V389.2C26.2 371.2 0 332.7 0 288c0-61.9 50.1-112 112-112h32c24 0 46.2 7.5 64.4 20.3zM448 416V394.5c20-24.7 32-56.2 32-90.5c0-42.8-18.7-81.3-48.4-107.7C449.8 183.5 472 176 496 176h32c61.9 0 112 50.1 112 112c0 44.7-26.2 83.2-64 101.2V416c0 17.7-14.3 32-32 32H480c-17.7 0-32-14.3-32-32zm8-328a56 56 0 1 1 112 0A56 56 0 1 1 456 88zM576 245.7v84.7c10-11.3 16-26.1 16-42.3s-6-31.1-16-42.3zM320 32a64 64 0 1 1 0 128 64 64 0 1 1 0-128zM240 304c0 16.2 6 31 16 42.3V261.7c-10 11.3-16 26.1-16 42.3zm144-42.3v84.7c10-11.3 16-26.1 16-42.3s-6-31.1-16-42.3zM448 304c0 44.7-26.2 83.2-64 101.2V448c0 17.7-14.3 32-32 32H288c-17.7 0-32-14.3-32-32V405.2c-37.8-18-64-56.5-64-101.2c0-61.9 50.1-112 112-112h32c61.9 0 112 50.1 112 112z" />
         </svg>
       </h1>
       <div class="col-md-8 fs-4" v-if="!random_phrase">
-        <a
-          class="btn btn-primary btn-lg"
-          type="button"
-          @click="getRandomPhrase()"
-          >Click to find your phrase</a
-        >
+        <a class="btn btn-primary btn-lg" type="button" @click="getRandomPhrase()">Click to find your phrase</a>
       </div>
       <div class="col-md-8 fs-4 mt-4" v-else>
         <h3>{{ random_phrase }}</h3>
-        <a
-          class="btn btn-primary btn-lg mt-3"
-          type="button"
-          @click="getRandomPhrase()"
-          >Click to change your phrase</a
-        >
+        <a class="btn btn-primary btn-lg mt-3" type="button" @click="getRandomPhrase()">Click to change your phrase</a>
       </div>
     </div>
   </div>
@@ -40,11 +25,7 @@
     <div class="row row-cols-1 row-cols-md-2 my-4">
       <div class="col-12 col-md-6 p-2 text-center">
         <h3 class="display-3">Our Team</h3>
-        <img
-          class="img-fluid rounded-pill"
-          src="../assets/img/bartenders.png"
-          alt=""
-        />
+        <img class="img-fluid rounded-pill" src="../assets/img/bartenders.png" alt="" />
         <p class="px-4 pt-4 display-6 text-muted">
           Il nostro Team è composto da seri professionisti che ti potranno
           accompagnare nel percorso che ti condurrà ad una felice e tranquilla
@@ -52,28 +33,17 @@
           qualità servito dai migliori sul mercato ti possono regalare. Per
           qualsiasi domanda
         </p>
-        <router-link
-          to="/contact"
-          class="text-decoration-none display-6 text-uppercase"
-          type="button"
-          >contattaci</router-link
-        >
+        <router-link to="/contact" class="text-decoration-none display-6 text-uppercase"
+          type="button">contattaci</router-link>
       </div>
 
-      <div
-        class="col-12 col-md-6 d-flex flex-column align-items-center justify-content-center gap-2"
-      >
+      <div class="col-12 col-md-6 d-flex flex-column align-items-center justify-content-center gap-2">
         <!--Team Member-->
         <div
-          class="d-flex align-items-center justify-content-around border border-3 rounded-5 border-black ms-5 py-2 member_card bg_custom text-white"
-        >
+          class="d-flex align-items-center justify-content-around border border-3 rounded-5 border-black ms-5 py-2 member_card bg_custom text-white">
           <!--Member Image-->
           <div class="col-4 text-center">
-            <img
-              src="https://avatars.githubusercontent.com/u/137309407?v=4"
-              alt=""
-              class="contact_avatar img-fluid"
-            />
+            <img src="https://avatars.githubusercontent.com/u/137309407?v=4" alt="" class="contact_avatar img-fluid" />
           </div>
           <!-- Member Name-->
           <div class="col-4 text-center">
@@ -82,16 +52,10 @@
           </div>
           <!-- Member Github-->
           <div class="col-4 text-center d-flex gap-2 justify-content-center">
-            <a
-              href="https://github.com/Francesco-Munafo"
-              class="btn btn-outline-light"
-            >
+            <a href="https://github.com/Francesco-Munafo" class="btn btn-outline-light">
               <i class="fa-brands fa-github"></i>
             </a>
-            <a
-              href="https://github.com/Francesco-Munafo"
-              class="btn btn-outline-primary"
-            >
+            <a href="https://github.com/Francesco-Munafo" class="btn btn-outline-primary">
               <i class="fa-brands fa-linkedin"></i>
             </a>
           </div>
@@ -99,15 +63,10 @@
 
         <!--Team Member-->
         <div
-          class="d-flex align-items-center justify-content-around border border-3 rounded-5 border-black ms-5 py-2 member_card bg_custom text-white"
-        >
+          class="d-flex align-items-center justify-content-around border border-3 rounded-5 border-black ms-5 py-2 member_card bg_custom text-white">
           <!--Member Image-->
           <div class="col-4 text-center">
-            <img
-              src="https://avatars.githubusercontent.com/u/135619487?v=4"
-              alt=""
-              class="contact_avatar img-fluid"
-            />
+            <img src="https://avatars.githubusercontent.com/u/135619487?v=4" alt="" class="contact_avatar img-fluid" />
           </div>
           <!-- Member Name-->
           <div class="col-4 text-center">
@@ -116,16 +75,10 @@
           </div>
           <!-- Member Github-->
           <div class="col-4 text-center d-flex gap-2 justify-content-center">
-            <a
-              href="https://github.com/lorenzo-neri"
-              class="btn btn-outline-light"
-            >
+            <a href="https://github.com/lorenzo-neri" class="btn btn-outline-light">
               <i class="fa-brands fa-github"></i>
             </a>
-            <a
-              href="https://github.com/lorenzo-neri"
-              class="btn btn-outline-primary"
-            >
+            <a href="https://github.com/lorenzo-neri" class="btn btn-outline-primary">
               <i class="fa-brands fa-linkedin"></i>
             </a>
           </div>
@@ -133,15 +86,10 @@
 
         <!--Team Member-->
         <div
-          class="d-flex align-items-center justify-content-around border border-3 rounded-5 border-black ms-5 py-2 member_card bg_custom text-white"
-        >
+          class="d-flex align-items-center justify-content-around border border-3 rounded-5 border-black ms-5 py-2 member_card bg_custom text-white">
           <!--Member Image-->
           <div class="col-4 text-center">
-            <img
-              src="https://avatars.githubusercontent.com/u/136013237?v=4"
-              alt=""
-              class="contact_avatar img-fluid"
-            />
+            <img src="https://avatars.githubusercontent.com/u/136013237?v=4" alt="" class="contact_avatar img-fluid" />
           </div>
           <!-- Member Name-->
           <div class="col-4 text-center">
@@ -150,16 +98,10 @@
           </div>
           <!-- Member Github-->
           <div class="col-4 text-center d-flex gap-2 justify-content-center">
-            <a
-              href="https://github.com/giacomobranchi"
-              class="btn btn-outline-light"
-            >
+            <a href="https://github.com/giacomobranchi" class="btn btn-outline-light">
               <i class="fa-brands fa-github"></i>
             </a>
-            <a
-              href="https://github.com/giacomobranchi"
-              class="btn btn-outline-primary"
-            >
+            <a href="https://github.com/giacomobranchi" class="btn btn-outline-primary">
               <i class="fa-brands fa-linkedin"></i>
             </a>
           </div>
@@ -167,15 +109,10 @@
 
         <!--Team Member-->
         <div
-          class="d-flex align-items-center justify-content-around border border-3 rounded-5 border-black ms-5 py-2 member_card bg_custom text-white"
-        >
+          class="d-flex align-items-center justify-content-around border border-3 rounded-5 border-black ms-5 py-2 member_card bg_custom text-white">
           <!--Member Image-->
           <div class="col-4 text-center">
-            <img
-              src="https://avatars.githubusercontent.com/u/134152768?v=4"
-              alt=""
-              class="contact_avatar img-fluid"
-            />
+            <img src="https://avatars.githubusercontent.com/u/134152768?v=4" alt="" class="contact_avatar img-fluid" />
           </div>
           <!-- Member Name-->
           <div class="col-4 text-center">
@@ -184,16 +121,10 @@
           </div>
           <!-- Member Github-->
           <div class="col-4 text-center d-flex gap-2 justify-content-center">
-            <a
-              href="https://github.com/MatteoNocera"
-              class="btn btn-outline-light"
-            >
+            <a href="https://github.com/MatteoNocera" class="btn btn-outline-light">
               <i class="fa-brands fa-github"></i>
             </a>
-            <a
-              href="https://github.com/MatteoNocera"
-              class="btn btn-outline-primary"
-            >
+            <a href="https://github.com/MatteoNocera" class="btn btn-outline-primary">
               <i class="fa-brands fa-linkedin"></i>
             </a>
           </div>
@@ -201,15 +132,10 @@
 
         <!--Team Member-->
         <div
-          class="d-flex align-items-center justify-content-around border border-3 rounded-5 border-black ms-5 py-2 member_card bg_custom text-white"
-        >
+          class="d-flex align-items-center justify-content-around border border-3 rounded-5 border-black ms-5 py-2 member_card bg_custom text-white">
           <!--Member Image-->
           <div class="col-4 text-center">
-            <img
-              src="../assets/img/Matteo Napoli.png"
-              alt=""
-              class="contact_avatar img-fluid"
-            />
+            <img src="../assets/img/Matteo Napoli.png" alt="" class="contact_avatar img-fluid" />
           </div>
           <!-- Member Name-->
           <div class="col-4 text-center">
@@ -218,16 +144,10 @@
           </div>
           <!-- Member Github-->
           <div class="col-4 text-center d-flex gap-2 justify-content-center">
-            <a
-              href="https://github.com/matteoNapoli42"
-              class="btn btn-outline-light"
-            >
+            <a href="https://github.com/matteoNapoli42" class="btn btn-outline-light">
               <i class="fa-brands fa-github"></i>
             </a>
-            <a
-              href="https://github.com/matteoNapoli42"
-              class="btn btn-outline-primary"
-            >
+            <a href="https://github.com/matteoNapoli42" class="btn btn-outline-primary">
               <i class="fa-brands fa-linkedin"></i>
             </a>
           </div>
@@ -265,14 +185,10 @@
         </div>
       </div>
       <div class="col">
-        <div
-          class="card text-center bg-transparent border-0 text-white h-100 justify-content-center align-items-center"
-        >
-          <img
-            class="rounded-2 shadow"
+        <div class="card text-center bg-transparent border-0 text-white h-100 justify-content-center align-items-center">
+          <img class="rounded-2 shadow img-fluid"
             src="https://www.r101.it/resizer/620/350/true/Schermata_2020-11-10_alle_11.06.06-1605002820417.png--il_cocktail_ispirato_a_baby_yoda_diventa_virale__e_il_merito_e_di_jennifer_aniston.png?1605002820658"
-            alt=""
-          />
+            alt="" />
         </div>
       </div>
     </div>
@@ -280,18 +196,9 @@
     <!-- our partners -->
     <h2 class="text-center my-5 text-white-50 display-4">I nostri Partners</h2>
     <div class="row row-cols-1 row-cols-sm-3 row-cols-md-6 g-3 mb-5">
-      <div
-        class="col d-flex justify-content-center align-items-center"
-        v-for="spirit in spirits_images"
-      >
+      <div class="col d-flex justify-content-center align-items-center" v-for="spirit in spirits_images">
         <div class="card">
-          <img
-            height="200"
-            width="200"
-            class="img-fluid"
-            :src="spirit.img"
-            alt=""
-          />
+          <img height="200" width="200" class="img-fluid" :src="spirit.img" alt="" />
         </div>
       </div>
     </div>
